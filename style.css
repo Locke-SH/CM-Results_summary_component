@@ -1,0 +1,206 @@
+/*generell*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: grid;
+    grid-template-columns: auto  330px 330px auto;
+    grid-template-rows: 300px 470px auto;
+
+}
+
+.background_container{
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 2/4;
+    padding: 0px;
+    box-shadow: 10px 10px 10px 10px  hsl(234, 85%, 45%,0.04);
+    border-radius: 30px;
+}
+
+
+
+/*result_container*/
+.result_container{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius:30px;
+    
+}
+
+.result {
+    font-size: 1.5em;
+    margin-top: 30px;
+    color:lightgray;
+    
+}
+
+.number_container{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin: auto;
+    margin-top: 30px;
+    height: 180px;
+    width:180px;
+    border-radius: 90px 90px ;
+    padding-top: 50px;
+   
+}
+
+.main_number{
+    position: relative;
+    top: -10px;
+    color: white;
+    font-size: 65px;
+}
+
+.numbers_of{
+    position: relative;
+    color: lightgray;
+    top: -10px;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+.result_text{
+    color: lightgray;;
+    margin: 10px 50px 20px 50px; 
+}
+
+
+/*summary container*/
+
+.summary_container{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-radius:30px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+.skills, object, h4 {
+    display: inline-block;
+    position:relative;
+}
+
+.summary_text{
+    font-size: 23px;
+    margin-left:10px;
+    margin-top:12px;
+    margin-bottom: 30px;
+}
+
+
+.reaction-container,
+.memory-container,
+.verbal-container,
+.visual-container {
+    border-radius: 10px;
+    height: 50px;
+    margin: 15px 10px 10px 10px;
+}
+
+object {
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+}
+
+h4{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+span {
+    position: relative;
+    color: lightgray;
+    top: 14px;
+    right: 20px;
+    float: right;
+}
+
+strong{
+    color: black;
+
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory{
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+    color: hsl(166, 100%, 37%);
+}
+
+.visual{
+    color: hsl(234, 85%, 45%);
+}
+
+.reaction-container {
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory-container {
+    background-color: hsl(39, 100%, 56%,0.1);
+}
+
+.verbal-container {
+    background-color: hsl(166, 100%, 37%,0.1);
+}
+
+.visual-container {
+    background-color: hsl(234, 85%, 45%,0.1);
+}
+
+
+button {
+    all:unset;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 40px;
+    margin-left:10px;
+    margin-right:40px;
+    height: 50px;
+    width: 250px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    border-radius:50px;
+    text-align: center;
+
+}
+
+button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+@media only screen 
+and (max-width: 375px){
+
+    body{
+        font-family: 'Hanken Grotesk', sans-serif;
+        display: grid;
+        grid-template-columns: auto  330px 330px auto;
+        grid-template-rows: 300px 470px auto;
+    
+    }
+
+
+
+} 
