@@ -193,7 +193,6 @@ strong{
     border-radius:50px;
     text-align: center;
     padding:1rem;
-
 }
 
 .button:hover {
@@ -217,15 +216,10 @@ and (max-width: 375px){
         border-radius: 30px;
     }
     
-
     .result_container{
         background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
         text-align: center;
         border-radius:0px 0px 30px 30px; 
     }
-
-
-
-
 
 } 
