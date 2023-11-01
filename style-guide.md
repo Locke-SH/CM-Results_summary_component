@@ -17,7 +17,7 @@ The designs were created to the following widths:
 - Cobalt blue: hsl(234, 85%, 45%)
 
 ## Gradients
-
+7
 - Light slate blue (background): hsl(252, 100%, 67%)
 - Light royal blue (background): hsl(241, 81%, 54%)
 

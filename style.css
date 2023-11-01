@@ -105,7 +105,8 @@ h1{
 .reaction-container,
 .memory-container,
 .verbal-container,
-.visual-container {
+.visual-container,
+.button {
     border-radius: 10px;
     height: 50px;
     margin: 15px 10px 10px 10px;
@@ -169,7 +170,7 @@ strong{
 }
 
 
-button {
+/*button {
     all:unset;
     box-sizing: border-box;
     display: block;
@@ -184,9 +185,18 @@ button {
     border-radius:50px;
     text-align: center;
 
+}*/
+
+.button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius:50px;
+    text-align: center;
+    padding:1rem;
+
 }
 
-button:hover {
+.button:hover {
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
 
@@ -195,11 +205,26 @@ and (max-width: 375px){
 
     body{
         font-family: 'Hanken Grotesk', sans-serif;
-        display: grid;
-        grid-template-columns: auto  330px 330px auto;
-        grid-template-rows: 300px 470px auto;
+        display: flex;
+        flex-direction: column;
     
     }
+
+    .background_container{
+        width: 100%;
+        padding: 0px;
+        box-shadow: 10px 10px 10px 10px  hsl(234, 85%, 45%,0.04);
+        border-radius: 30px;
+    }
+    
+
+    .result_container{
+        background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        text-align: center;
+        border-radius:0px 0px 30px 30px; 
+    }
+
+
 
 
 
